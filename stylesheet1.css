@@ -1,19 +1,20 @@
 
 /*header*/
 .header {
-    background-color: rgb(227, 236, 216);
     text-align: center;
-    
-
 }
-
+/* Solid border */
+hr.solid {
+    border-top: 1px solid #d6f388;
+  }
 /* navigationbar */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(106, 153, 127);
+    background-color: #ffffff33;
+    font-family:sans-serif ;
 }
 
 li {
@@ -22,7 +23,7 @@ li {
 
 li a, .dropbtn{
     display: inline-block;
-    color: rgb(206, 243, 218);
+    color: rgba(105, 158, 55, 0.815);
     text-align: center;
     padding: 20px 40px;
     text-decoration: none; 
@@ -30,7 +31,7 @@ li a, .dropbtn{
 
 /* Change the link color to #blue  on hover */
 li a:hover {
-    background-color: rgb(75, 109, 105);
+    background-color: rgb(229, 241, 218);
 }
 
 /* dropdown */
@@ -45,7 +46,7 @@ li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:rgb(75, 109, 105);
+    background-color: rgb(255, 255, 255);
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(5, 65, 40, 0.418);
     padding: 12px 16px;
@@ -53,7 +54,7 @@ li a:hover {
 }
 
 .dropdown-content a {
-    color: rgb(189, 245, 198);
+    color:rgba(105, 158, 55, 0.815);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -61,14 +62,14 @@ li a:hover {
 }
 
 .dropdown-content a:hover {
-    background-color: rgba(68, 134, 143, 0.904);
+    background-color: rgba(234, 243, 200, 0.904);
 }
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: rgb(75, 109, 105);
+    background-color:  rgb(227, 247, 209);
 }
 
 /* active link background color*/
@@ -79,35 +80,31 @@ li a:hover {
 
 /*Start body*/
 body {
-    background-color: rgb(203, 216, 128);
+    background-color: rgb(255, 255, 255);
 }
 
-.Box1 {
-    border-style:ridge;
-    border-color: rgb(41, 110, 105);
-    margin-top: 20px;
-    padding: 10px;
-    width: 400px;
-    height: 100;
-    background-color: rgba(105, 110, 59, 0.192);
+.Titel {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.Beschrijving {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.Startbox {
+    background-color: #ffffffa9;
+    text-align: center;
+    width: 50%;
+    margin-top:-250px;
+    margin-left:20% ;
+    position: absolute;
+    padding-bottom: 30px;
     
 }
-.Box2 {
-    border-style:ridge;
-    border-color: rgb(41, 110, 105);
-    margin-top: -130px;
-    padding: 10px;
-    width: 400px;
-    height: 100;
-    background-color: rgba(105, 110, 59, 0.192);
-    margin-left: 450px;
-    
-}
-.p1 {
-    color: rgb(238, 255, 243);
-    text-align: left;
-    font-size: larger;
-}
+
+
  /* Start image gallery*/   
 
  div.gallery {
@@ -131,9 +128,14 @@ body {
     text-align: center;
   }
 
+
+  
+
 /*Eind body*/
 .footer {
   background-color: #F1F1F1;
   text-align: center;
   padding: 10px;
 }
+
+
