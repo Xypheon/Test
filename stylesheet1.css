@@ -5,7 +5,7 @@
 }
 /* Solid border */
 hr.solid {
-    border-top: 1px solid #d6f388;
+    border: 1px solid #7e94433f;
   }
 /* navigationbar */
 ul {
@@ -23,7 +23,7 @@ li {
 
 li a, .dropbtn{
     display: inline-block;
-    color: rgba(105, 158, 55, 0.815);
+    color: rgba(150, 133, 56, 0.815);
     text-align: center;
     padding: 20px 40px;
     text-decoration: none; 
@@ -31,7 +31,7 @@ li a, .dropbtn{
 
 /* Change the link color to #blue  on hover */
 li a:hover {
-    background-color: rgb(229, 241, 218);
+    background-color: rgba(248, 246, 213, 0.61);
 }
 
 /* dropdown */
@@ -46,7 +46,7 @@ li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color:  #fffffff5;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(5, 65, 40, 0.418);
     padding: 12px 16px;
@@ -54,7 +54,7 @@ li a:hover {
 }
 
 .dropdown-content a {
-    color:rgba(105, 158, 55, 0.815);
+    color:rgba(150, 133, 56, 0.815);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -62,25 +62,25 @@ li a:hover {
 }
 
 .dropdown-content a:hover {
-    background-color: rgba(234, 243, 200, 0.904);
+    background-color: rgb(248, 246, 213);
 }
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color:  rgb(227, 247, 209);
+    background-color:   rgb(248, 246, 213);
 }
 
 /* active link background color*/
 .active {
-    background-color: rgb(0, 255, 128);
+    background-color:  rgb(248, 246, 213);
 }
 
 
 /*Start body*/
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(231, 222, 189, 0.795);
 }
 
 
@@ -248,6 +248,42 @@ body {
   to {opacity: 1}
 }
   
+
+/*Contactformulier*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-family: sans-serif;
+}
 
 /*Eind body*/
 .footer {
