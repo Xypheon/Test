@@ -108,7 +108,7 @@ background-color:rgba(248, 246, 213, 0.527) ;
 width: 1000px;
 height: 180px;
 border-radius: 5%;
-color: rgba(150, 133, 56, 0.815);
+color: rgba(49, 44, 19, 0.623);
 font-family: sans-serif;
 margin:auto;
 }
@@ -131,86 +131,6 @@ h1{
 .Beschrijving {
     font-family: sans-serif;
     font-size: 20px;
-}
-
-.Startbox {
-    background-color: #ffffffa9;
-    text-align: center;
-    width: 50%;
-    margin-top:-250px;
-    margin-left:20% ;
-    position: absolute;
-    padding-bottom: 30px;
-    
-}
-
-#voorbeeld1 {
-    box-sizing: content-box;
-    width: 300px;
-    height: 100px;
-    padding: 30px;
-    border: 5px solid black;
-}
-
-#voorbeeld2 {
-    box-sizing: border-box;
-    width: 300px;
-    height: 100px;
-    padding: 30px;
-    border: 5px solid black;
-
-}
-
-#voorbeeld2::after{
-    content: " help me";
-}
-
-
-
-
-
-
-
- /* Start image gallery*/   
-/*
- div.gallery {
-    border: 1px solid #d8ecda52;
-    width: 200px;
-    margin: auto;
- 
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-
-  }
-  
-  div.desc {
-    padding: 15x;
-    text-align: center;
-  }
-
-*/
-
-
-/*Slideshow*/
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
 }
 
 /* Next & previous buttons */
