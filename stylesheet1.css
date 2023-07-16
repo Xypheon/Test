@@ -13,18 +13,24 @@
 hr.solid {
     border: 1px solid #7e94433f;
   }
+
+#nav {
+  text-align: center;
+}
 /* navigationbar */
 ul {
-    list-style-type: none;
-    margin: 0;
+    list-style: none;
+    margin: auto;
     padding: 0;
-    overflow: hidden;
+    /*overflow: hiden;*/
     background-color: #ffffff33;
     font-family:sans-serif ;
+    display: inline-block;
+    
 }
 
 li {
-    float: left;
+    float:left;
 }
 
 li a, .dropbtn{
@@ -88,28 +94,29 @@ li a:hover {
 body {
     background-color: rgba(231, 222, 189, 0.795);
 }
-
+/*
 .dummy {
   width: 400px;
   height: 400px;
   float:right;
   margin-top:-200px;
   margin-right:-10px;
-  position:relative;
-}
+  position: relative;
+}*/
 .intro {
 background-color:rgba(248, 246, 213, 0.527) ;
-width: 800px;
+width: 1000px;
 height: 180px;
 border-radius: 5%;
 color: rgba(150, 133, 56, 0.815);
 font-family: sans-serif;
+margin:auto;
 }
 p,h1 {
   padding: 20px;
 }
 p{
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 0px;
 }
 h1{
