@@ -7,7 +7,7 @@
 .HeaderImage{
   width:360px;
   height: 360px;
-  margin-top: 0;
+  margin: auto;
 }
 /* Solid border */
 hr.solid {
