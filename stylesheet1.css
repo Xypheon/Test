@@ -108,7 +108,7 @@ body {
 .intro {
 background-color:rgba(248, 246, 213, 0.527) ;
 width: 870px;
-height: 180px;
+height: 200px;
 border-radius:2em;
 color: rgba(49, 44, 19, 0.623);
 font-family: sans-serif;
@@ -138,6 +138,23 @@ h1{
 
 
 }
+
+.shopproduct {
+  background-color:rgba(248, 246, 213, 0.527) ;
+  width: 870px;
+  height: 800px;
+  border-radius:2em;
+  color: rgba(49, 44, 19, 0.623);
+  font-family: sans-serif;
+  margin-top:30px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+
+
+}
+
+
 
 .Titel {
     font-family: sans-serif;
