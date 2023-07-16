@@ -89,10 +89,18 @@ body {
     background-color: rgba(231, 222, 189, 0.795);
 }
 
+.dummy {
+  width: 400px;
+  height: 400px;
+  float:right;
+  margin-top:-200px;
+  margin-right:-10px;
+  position:relative;
+}
 .intro {
 background-color:rgba(248, 246, 213, 0.527) ;
 width: 800px;
-height: 220px;
+height: 180px;
 border-radius: 5%;
 color: rgba(150, 133, 56, 0.815);
 font-family: sans-serif;
@@ -102,6 +110,10 @@ p,h1 {
 }
 p{
   font-size: 20px;
+  padding-top: 0px;
+}
+h1{
+  padding-bottom: 0px;
 }
 
 .Titel {
