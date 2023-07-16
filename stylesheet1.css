@@ -165,6 +165,16 @@ h1{
   color: #069218;
 }
 
+.audio {
+
+  width: 300px;
+  height: 54px;
+  background-color: #069218;
+  border-radius: 2em;
+  margin-top: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .Titel {
     font-family: sans-serif;
