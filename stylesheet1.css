@@ -89,9 +89,19 @@ body {
     background-color: rgba(231, 222, 189, 0.795);
 }
 
-#list {
- 
-
+.intro {
+background-color:rgba(248, 246, 213, 0.527) ;
+width: 800px;
+height: 220px;
+border-radius: 5%;
+color: rgba(150, 133, 56, 0.815);
+font-family: sans-serif;
+}
+p,h1 {
+  padding: 20px;
+}
+p{
+  font-size: 20px;
 }
 
 .Titel {
