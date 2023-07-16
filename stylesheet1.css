@@ -3,6 +3,12 @@
 .header {
     text-align: center;
 }
+
+.HeaderImage{
+  width:360px;
+  height: 360px;
+  margin-top: 0;
+}
 /* Solid border */
 hr.solid {
     border: 1px solid #7e94433f;
@@ -83,6 +89,10 @@ body {
     background-color: rgba(231, 222, 189, 0.795);
 }
 
+#list {
+ 
+
+}
 
 .Titel {
     font-family: sans-serif;
