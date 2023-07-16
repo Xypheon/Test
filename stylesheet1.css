@@ -125,6 +125,10 @@ h1{
   padding-bottom: 0px;
 }
 
+.informatie {
+  text-align:left;
+  margin-left: 50px;
+}
 .contactform {
   background-color:rgba(248, 246, 213, 0.527) ;
   width: 870px;
@@ -142,7 +146,7 @@ h1{
 .shopproduct {
   background-color:rgba(248, 246, 213, 0.527) ;
   width: 870px;
-  height: 800px;
+  height: 960px;
   border-radius:2em;
   color: rgba(49, 44, 19, 0.623);
   font-family: sans-serif;
@@ -154,6 +158,12 @@ h1{
 
 }
 
+#price {
+  font-size: 40px;
+  margin-top: -20px;
+  margin-left: 20px;
+  color: #069218;
+}
 
 
 .Titel {
