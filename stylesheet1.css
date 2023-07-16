@@ -114,7 +114,7 @@ color: rgba(49, 44, 19, 0.623);
 font-family: sans-serif;
 margin:auto;
 }
-p,h1 {
+p,h1,h2 {
   padding: 20px;
 }
 p{
@@ -262,14 +262,16 @@ input[type=submit]:hover {
 
 /*Eind body*/
 .footer {
+  color: rgba(49, 44, 19, 0.623);
   background-color:#ffffff33;
   width: 870px;
   text-align: center;
   padding-top: 1px;
   border-radius: 2em;
-  margin-top:1000px;
+  margin-top:700px;
   margin-left: auto;
   margin-right: auto;
+  font-family: sans-serif;
 }
 
 
