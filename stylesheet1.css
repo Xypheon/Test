@@ -9,6 +9,10 @@
   height: 360px;
   margin: auto;
 }
+
+a {
+  color: #2db802;
+}
 /* Solid border */
 hr.solid {
     border: 1px solid #7e94433f;
