@@ -129,6 +129,16 @@ h1{
   text-align:left;
   margin-left: 50px;
 }
+
+.kop1 {
+  background-color:rgba(248, 246, 213, 0.527) ;
+  width: 870px;
+  height: 530px;
+  border-radius:2em;
+  color: rgba(49, 44, 19, 0.623);
+  font-family: sans-serif;
+  margin:auto;
+  }
 .contactform {
   background-color:rgba(248, 246, 213, 0.527) ;
   width: 870px;
@@ -165,17 +175,10 @@ h1{
   color: #069218;
 }
 
-.audio {
-
-  width: 300px;
-  height: 54px;
-  background-color: #069218;
-  border-radius: 2em;
-  margin-top: 500px;
-  margin-left: auto;
-  margin-right: auto;
+#horse1 {
+  float: right;
+  padding-right: 15px;
 }
-
 .Titel {
     font-family: sans-serif;
     font-size: 40px;
