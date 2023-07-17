@@ -10,6 +10,11 @@
   margin: auto;
 }
 
+#vb{
+  margin-top:-40px ;
+  margin-left: 20px;
+}
+
 a {
   color: #2db802;
 }
@@ -137,7 +142,7 @@ h1{
 .kop1 {
   background-color:rgba(248, 246, 213, 0.527) ;
   width: 870px;
-  height: 530px;
+  height: 560px;
   border-radius:2em;
   color: rgba(49, 44, 19, 0.623);
   font-family: sans-serif;
